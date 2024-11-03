@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Weather App</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="input-section">
+            <input type="text" id="locationInput" placeholder="Enter city or click 'Get Location'">
+            <button onclick="getWeatherByInput()">Get Weather</button>
+            <button onclick="getWeatherByLocation()">Get Location</button>
+        </div>
+        <div id="weatherDisplay" class="weather-display hidden">
+            <!-- Weather information will be displayed here dynamically -->
+        </div>
+    </div>
+    <script src="task4.js"></script>
+</body>
+</html>
